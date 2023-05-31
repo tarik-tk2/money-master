@@ -1,12 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Money-Master</title>
+  </head>
+  <body>
+    <h1 class="text-4xl font-bold text-teal-600 text-center">Money Master</h1>
+    <div class="flex flex-col lg:flex lg:flex-row mt-8 w-9/12 mx-auto ">
+      <div class="  lg:w-1/2  h-auto">
+        <img  class="w-full h-full"
+          src="https://alquds.fra1.digitaloceanspaces.com/uploads/2d427d198980d5ddef9a19997b0cfb70.jpg"
+          alt="money_image"
+          srcset=""
+        />
+      </div>
+      <div
+        class="text-lg font-bold  lg:w-1/2 lg:mx-24"
+      >
+        <p class="text-center">Income</p>
+        <div class="font-medium text-base my-4 ">
+          <label for="" class="text-right inline-block lg:w-20">Income:</label>
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="000$"
+            class="bg-slate-200 lg:ml-6 text-left pl-4 p-1 outline-none"
+          />
+        </div>
+        <p class="text-center">Expenses</p>
+
+        <div class="font-medium text-base my-4">
+          <label for="" class="text-right inline-block lg:w-20">Food :</label>
+          <input
+            type="text"
+            name=""
+            id=" "
+            class="bg-slate-200 lg:ml-6 text-left pl-4  p-1 focus:outline-none"
+            placeholder="000$"
+          />
+        </div>
+        <div class="font-medium text-base my-4">
+          <label for="" class="text-right inline-block lg:w-20">Rent :</label>
+          <input
+            type="text"
+            name=""
+            id=""
+            class="bg-slate-200 lg:ml-6 text-left pl-4 p-1 outline-none"
+            placeholder="000$"
+          />
+        </div>
+        <div class="font-medium text-base my-4">
+          <label for="" class="text-right inline-block lg:w-20">Cloths :</label>
+          <input
+            type="text"
+            name=""
+            id=""
+            class="bg-slate-200 lg:ml-6 p-1 text-left pl-4 outline-none "
+            placeholder="000$"
+          />
+        </div>
+        <button type="submit" class="bg-cyan-600 px-6 py-2 text-white  mx-auto flex  justify-center	">Calculate</button>
+        <p class="text-center mt-4">Total Expenses:000$</p>
+        <p class="text-center mt-2">Balance:000$</p>
+        <div class="mt-4 text-center text-base font-lg">
+          <label for="">Save</label>
+          
+            <input type="text" name="" id="" class="bg-slate-200 ml-6 p-1 outline-none w-20 " />
+         
+          <label for="">%</label>
+          <button class="bg-cyan-600 px-6 py-1 text-white">Save</button>
+        </div>
+        <p class="text-center mt-4">Save Amount :000$</p>
+        <p class="text-center mt-4">Remaining Amount :000$</p>
+      </div>
+    </div>
+  </body>
 </html>
