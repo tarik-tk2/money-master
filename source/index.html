@@ -26,7 +26,7 @@
           <input
             type="text"
             name=""
-            id=""
+            id="income-id"
             placeholder="000$"
             class="bg-slate-200 lg:ml-6 text-left pl-4 p-1 outline-none"
           />
@@ -38,44 +38,45 @@
           <input
             type="text"
             name=""
-            id=" "
+            id="food-id"
             class="bg-slate-200 lg:ml-6 text-left pl-4  p-1 focus:outline-none"
             placeholder="000$"
           />
+          <div id="error"></div>
         </div>
         <div class="font-medium text-base my-4">
           <label for="" class="text-right inline-block lg:w-20">Rent :</label>
           <input
             type="text"
             name=""
-            id=""
+            id="rent-id"
             class="bg-slate-200 lg:ml-6 text-left pl-4 p-1 outline-none"
             placeholder="000$"
           />
         </div>
         <div class="font-medium text-base my-4">
-          <label for="" class="text-right inline-block lg:w-20">Cloths :</label>
+          <label fototal-expenser="" class="text-right inline-block lg:w-20">Cloths :</label>
           <input
             type="text"
             name=""
-            id=""
+            id="cloths-id"
             class="bg-slate-200 lg:ml-6 p-1 text-left pl-4 outline-none "
             placeholder="000$"
           />
         </div>
-        <button type="submit" class="bg-cyan-600 px-6 py-2 text-white  mx-auto flex  justify-center	">Calculate</button>
-        <p class="text-center mt-4">Total Expenses:000$</p>
-        <p class="text-center mt-2">Balance:000$</p>
+        <button type="submit" class="bg-cyan-600 px-6 py-2 text-white  mx-auto flex  justify-center	" id="calculate-id">Calculate</button>
+        <p class="text-center mt-4" >Total Expenses: <span id="total-expense">000</span> $</p>
+        <p class="text-center mt-2">Balance: <span id="remain-total">000</span> $</p>
         <div class="mt-4 text-center text-base font-lg">
           <label for="">Save</label>
           
-            <input type="text" name="" id="" class="bg-slate-200 ml-6 p-1 outline-none w-20 " />
+            <input type="text" name="" class="bg-slate-200 ml-6 p-1 outline-none w-20 " id="percentage-id" />
          
           <label for="">%</label>
-          <button class="bg-cyan-600 px-6 py-1 text-white">Save</button>
+          <button class="bg-cyan-600 px-6 py-1 text-white" id="percentage-button">Save</button>
         </div>
-        <p class="text-center mt-4">Save Amount :000$</p>
-        <p class="text-center mt-4">Remaining Amount :000$</p>
+        <p class="text-center mt-4">Save Amount : <span id="save-amount">000</span> $</p>
+        <p class="text-center mt-4">Remaining Amount : <span id="remaining-amount">000</span> $</p>
       </div>
     </div>
     <script src="script.js"></script>
